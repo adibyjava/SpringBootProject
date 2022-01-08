@@ -10,5 +10,8 @@ public class SampleRunner implements CommandLineRunner{
 	public void run(String... args) throws Exception {
 		System.out.println("Sample Runner...");	
 		System.out.println("Welcome to spring boot...");
+		int x = 10;
+		int y = 20;
+		System.out.println(x+y);
 	}
 }
